@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1px;
+    max-width: calc(100vh / 1.25);
+    margin-inline: auto;
+}
+
+.grid div {
+    aspect-ratio: 1/1;
+    overflow: auto;
+    background-color: #d8d8d8;
+}
