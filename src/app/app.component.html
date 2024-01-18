@@ -1,3 +1,39 @@
+<div class="bg"></div>
+
+<div class="star-field">
+<div class="layer"></div>
+<div class="layer"></div>
+<div class="layer"></div>
 <div class="grid">
-  <div *ngFor="let vertex of getVertices(); index as i;"></div>
+  <div class="vertex" *ngFor="let vertex of getVertices(); index as i;">
+    {{vertex.weight}}
+  </div>
+</div>
+<div class="stats">
+  <div class="statLabel">Location:</div>
+  <div class="statValue">23</div>
+
+  <div class="statLabel">Speed:</div>
+  <div class="statValue">0</div>
+
+  <div class="statLabel">Energy:</div>
+  <div class="statValue">0</div>
+
+  <div class="statLabel">Relativity:</div>
+  <div class="statValue">0</div>
+
+  <div class="statLabel">Origin:</div>
+  <div class="statValue">43</div>
+
+  <div class="statLabel">Population:</div>
+  <div class="statValue">1000</div>
+
+  <div class="statLabel">Discoveries:</div>
+  <div class="statValue">1</div>
+
+  <div class="statLabel">Transporting:</div>
+  <div class="statValue">5000</div>
+
+  <div class="statLabel">Materials:</div>
+  <div class="statValue">5000</div>
 </div>

@@ -1,6 +1,7 @@
 export class Vertex {
     public constructor(
         public id: number,
-        public weight: number
+        public weight: number,
+        public badges: string[]
     ) {};
 }
